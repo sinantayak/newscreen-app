@@ -1,0 +1,155 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="light" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light">
+      <h3>Room Order</h3>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class="first-info">
+    <ion-col size="9">
+      <ion-item>
+        <ion-button class="room-no">
+          <ion-label>485</ion-label>
+        </ion-button>
+        <ion-label>
+          <h1><b>485</b></h1>
+          <h1><b>Moon Palace</b></h1>
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label class="timeandname">
+          <i>
+            Time ordered: 23.10.20 14:45
+            <br>Submitted by Sia Bloom
+          </i>
+        </ion-label>
+      </ion-item>
+    </ion-col>
+    <ion-col size="3" class="submitted">
+      <ion-icon name="close-circle"></ion-icon>
+      <ion-label>Submitted</ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <ion-card class="ion-no-padding">
+        <ion-card-content>
+          <ion-row>
+            <ion-col class="order-list-title" size="12">
+              <!-- <ion-icon size="large" name="calendar-clear-outline"></ion-icon> -->
+              <ion-label><b>ORDER</b></ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-list class="order-list">
+            <ion-row>
+              <ion-col size="6">
+                <ion-label>Cheese plate</ion-label>
+                <ion-label>
+                  <p>No bread</p>
+                </ion-label>
+              </ion-col>
+              <ion-col size="1">
+                <ion-label>1x</ion-label>
+              </ion-col>
+              <ion-col size="2.5">
+                <ion-label>8.00£</ion-label>
+              </ion-col>
+              <ion-col size="2.5">
+                <ion-label>8.00£</ion-label>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="6">
+                <ion-label>Chicken wraps with hummus and rocket</ion-label>
+              </ion-col>
+              <ion-col size="1">
+                <ion-label>1x</ion-label>
+              </ion-col>
+              <ion-col size="2.5">
+                <ion-label>15.00£</ion-label>
+              </ion-col>
+              <ion-col size="2.5">
+                <ion-label>15.00£</ion-label>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="6">
+                <ion-label>Pasta blognese with fresh basil</ion-label>
+              </ion-col>
+              <ion-col size="1">
+                <ion-label>1x</ion-label>
+              </ion-col>
+              <ion-col size="2.5">
+                <ion-label>15.00£</ion-label>
+              </ion-col>
+              <ion-col size="2.5">
+                <ion-label>15.00£</ion-label>
+              </ion-col>
+            </ion-row>
+
+          </ion-list>
+          <ion-row class="list-total">
+            <ion-col size="6">
+              <ion-label>Amount</ion-label>
+            </ion-col>
+            <ion-col size="1">
+              <ion-label>3x</ion-label>
+            </ion-col>
+            <ion-col size="2.5">
+            </ion-col>
+            <ion-col size="2.5">
+              <ion-label>35.00£</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="ion-no-padding order-edit-card">
+        <ion-card-content class="ion-no-padding">
+          <ion-row>
+            <ion-col size="12" class="ion-no-padding">
+              <ion-item lines="none">
+                <ion-icon slot="start" name="fast-food-outline"></ion-icon>
+                <ion-label>Add or edit food order</ion-label>
+                <ion-button class="edit-button" color="warning" routerLink="/folder/edit-food-order">
+                  <ion-icon color="light" slot="icon-only" name="pencil-outline"></ion-icon>
+                </ion-button>
+              </ion-item>
+
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="ion-no-padding">
+        <ion-card-content>
+          <ion-row>
+            <ion-col class="order-list-title" size="12">
+              <!-- <ion-icon size="large" name="calendar-clear-outline"></ion-icon> -->
+              <ion-label><b>SUBTASKS</b></ion-label>
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col size="9" class="subtask-col">
+              <ion-label class="subtask-label">
+                Prepare food
+                <br>
+                <i> Done by: Kitchen</i>
+              </ion-label>
+            </ion-col>
+            <ion-col size="3" class="accept-button-col">
+              <ion-icon color="secondary" name="checkmark-circle"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+  </ion-row>
+</ion-content>

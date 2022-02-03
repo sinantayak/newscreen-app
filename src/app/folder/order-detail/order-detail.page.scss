@@ -1,0 +1,129 @@
+ion-card {
+    margin: 0;
+    margin-bottom: .7rem;
+    box-shadow: rgba(0, 0, 0, 0.212) 0px 2px 4px !important;
+}
+ion-card-content{
+    padding: 1rem;
+}
+
+.order-list {
+    padding: 1rem 0px;
+    border-bottom: 2px solid rgb(190, 206, 218);
+    ion-label {
+        color: var(--ion-color-darkblue-shade);
+        p {
+            color: var(--ion-color-darkblue-tint);
+        }
+    }
+}
+ion-toolbar {
+    --background: var(--ion-color-darkblue);
+}
+.submitted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ion-icon {
+        font-size: 64px;
+        color: var(--ion-color-darkblue);
+    }
+    ion-label{
+        color: var(--ion-color-darkblue);
+    }
+}
+.timeandname {
+    --color: var(--ion-color-darkblue-shade);
+}
+
+.first-info{
+    .room-no{
+        height: 60px;
+        width: 60px;
+        --background: rgb(201, 37, 45);
+        margin-right: 1rem;
+    }
+    ion-label{
+        h1{
+            color: var(--ion-color-darkblue);
+        }
+    }
+    
+    border-bottom: 10px solid var(--ion-color-darkblue);
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+
+}
+.order-list-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    ion-icon{
+        color: var(--ion-color-darkblue-shade);
+    }
+    ion-label{
+        // margin-left: .5rem;
+
+        color: var(--ion-color-darkblue);
+        font-size: 1.4rem;
+    }
+    border-bottom: 2px solid rgb(190, 206, 218);
+}
+.list-total{
+    
+    padding-top: .5rem;
+    ion-label{
+        font-weight: bold;
+        color: var(--ion-color-darkblue);
+    }
+}
+.room-no{
+    ion-label{
+        font-size: 1.3rem;
+    }
+}
+.order-edit-card{
+    ion-label{
+        font-size: 1.2rem;
+        color: var(--ion-color-darkblue);
+        font-weight: 600;
+    }
+    ion-icon{
+        color: var(--ion-color-darkblue);
+    }
+    ion-card-content{
+        padding: 0 !important;
+    }
+}
+.edit-button{
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    width: 12vw;
+    ion-icon{
+        font-size: 32px;
+    }
+}
+.subtask-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    
+    .subtask-label{
+        color: var(--ion-color-darkblue);
+        font-size: 1rem;
+    }
+}
+.accept-button-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    ion-icon {
+        font-size: 64px;
+    }
+}
