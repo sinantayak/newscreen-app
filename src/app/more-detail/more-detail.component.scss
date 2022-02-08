@@ -13,7 +13,7 @@ ion-item {
     border-top-right-radius: 15px;
     background: white;
     ion-col {
-        padding: 1rem;
+        padding: .8rem;
         display: flex;
         justify-content: center;
     }
@@ -47,6 +47,7 @@ ion-item {
 .click-and-choose {
     background: white;
     padding: 0.5rem;
+    padding-bottom: 1rem;
     ion-segment-button {
         background: rgb(231, 231, 231);
         ion-icon {
