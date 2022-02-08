@@ -42,6 +42,24 @@ ion-chip {
 .left-side {
     background: orange;
 }
+
+ion-item-sliding:nth-child(2n) {
+    .left-side {
+        background: var(--ion-color-success);
+    }
+    #triangle-topleft {
+        border-top: 90px solid var(--ion-color-success);
+    }
+}
+ion-item-sliding:nth-child(3n) {
+    .left-side {
+        background: var(--ion-color-danger);
+    }
+    #triangle-topleft {
+        border-top: 90px solid var(--ion-color-danger);
+    }
+}
+
 .icon {
     font-size: 40px;
     color: white;
@@ -54,8 +72,27 @@ ion-chip {
     border-right: 50px solid transparent;
 }
 
-ion-item-sliding{
-    margin-bottom:.5rem;
-    
+ion-item-sliding {
+    margin-bottom: 0.5rem;
+
+    box-shadow: 1px 4px 5px #af969657;
+}
+ 
+.searchbar {
+    ion-searchbar {
+        --border-radius: 0.5rem;
+        ::ng-deep {
+            .searchbar-input-container {
+                .searchbar-input {
+                    box-shadow: none;
+                    border: 1px solid gainsboro;
+                }
+            }
+        }
+    }
+    .file-icon {
+        color: var(--ion-color-darkblue);
+    }
+    margin-bottom: 0.5rem;
     box-shadow: 1px 4px 5px #af969657;
 }

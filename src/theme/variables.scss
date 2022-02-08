@@ -74,6 +74,14 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** Accent **/
+  --ion-color-darkblue: rgb(25, 70, 109);
+  --ion-color-darkblue-rgb: 9, 39, 63;
+  --ion-color-darkblue-contrast: #ffffff;
+  --ion-color-darkblue-contrast-rgb: 255, 255, 255;
+  --ion-color-darkblue-shade: rgb(23, 40, 87);
+  --ion-color-darkblue-tint: rgb(190, 206, 218);
 }
 
 @media (prefers-color-scheme: dark) {
