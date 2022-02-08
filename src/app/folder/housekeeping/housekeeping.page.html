@@ -44,11 +44,8 @@
         </ion-grid>
       </ion-item>
       <ion-item-options side="end">
-        <ion-item-option color="warning">
-          <ion-icon slot="icon-only" color="light" name="pencil"></ion-icon>
-        </ion-item-option>
         <ion-item-option color="secondary">
-          <ion-icon slot="icon-only" name="chatbox-ellipses"></ion-icon>
+          <ion-icon (click)="moreDetail()" slot="icon-only" name="ellipsis-vertical"></ion-icon>
         </ion-item-option>
         <ion-item-option color="medium">
           <ion-icon slot="icon-only" name="add"></ion-icon>

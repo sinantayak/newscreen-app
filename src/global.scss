@@ -42,3 +42,21 @@
         overflow-y: clip !important;
     }
 }
+
+.more-detail-css {
+    align-items: center;
+    overflow-y: hidden;
+    justify-content: center;
+    --backdrop-opacity: 0.7;
+    &::part(content) {
+        width: 90%;
+        height: 75%;
+        background: transparent !important;
+    }
+    
+}
+.more-detail-css ion-content{
+    &::part(scroll) {
+        overflow-y: clip !important;
+    }
+}
